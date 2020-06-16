@@ -1,0 +1,44 @@
+<html>
+<body>
+<style>
+*{}
+h1{
+  font-size:50px; color:green; font-style: bold;
+border: 5px solid black; width: 50%; text-align: center; box-sizing: border-box; margin:5px 25% 5px 25%;
+}
+.border-1{
+	color:yellow; border:1px solid black; background:grey;  float:right;
+}
+.border-2{
+	color:yellow; border:1px solid black; background:green;  float:right;
+}
+.border-3{
+	color:yellow; border:1px solid black; background:black;  float:right;
+}
+p{ color:blue;
+	clear:right;
+}
+.row{
+	width: 100%
+}
+@media(min-width: 992px){
+	.col-lg-4{float: left; box-sizing: border-box; border: 3px solid red;
+		 width:29%; margin:3px 2% 3px 2% ;
+		  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6{float: left; box-sizing: border-box; border: 2px solid red;
+		 width:46%; margin:3px 2% 3px 2% ;
+		  }
+		  .col-md-12{float: left; box-sizing: border-box; border: 2px solid red;
+		 width:96%; margin:3px 2% 3px 2% ;
+		  }
+ }
+  @media( max-width: 767px){
+  	.col-sd-12{float: left; box-sizing: border-box; border: 1px solid red;
+		 width:96%; margin:3px 2% 3px 2% ;
+		  }
+ }
+</style
+</body>
+</html>
